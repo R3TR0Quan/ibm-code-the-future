@@ -3,11 +3,53 @@
     <head>
         <meta charset="UTF-8">
         <title>My-First-Website</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="mystylesheet.css">
     </head>
-<body>
-    <h1>My name is Joshua Rwanda</h>
+    
+<body style="display: flex; justify-content: center; align-items: center; flex-direction: column; min-height: 100vh;">
+    
+    <h1>My name is Joshua Rwanda</h1>
     <p>I am a cat person</p>
-
+    <img src="./cat.jpeg" alt="Random cat image">
+    <h2>Facts about me</h2>
+    <ul>
+        <li>I identify as 'Nothing'</li>
+        <li>I identify as 'Nobody'</li>
+        <li>A man has no name</li>
+    </ul>
+    <h2>Registration Form</h2>
+    <form action="formSuccess.html">
+        <label for="username">Username:</label>
+        <input id="username" type="text" name="username" value="" maxlength=10 required>
+        <br>
+        <label for="password">Password:</label>
+        <input id="password" type="password" name="password" value="">
+        <br>
+        <label for="confirmpassword">Confirm Password:</label>
+        <input id="confirmpassword" type="password" name="confirmpassword" value="">
+        <br>
+        <input type="submit" value="Register">
+    </form>                 
     <h2>Hobbies</h2>
+    <table border="1">
+        <tr>
+            <th>Hobby</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td>Reading</td>
+            <td>I like to read books</td>
+        </tr>
+        <tr>
+            <td>Traveling</td>
+            <td>I like to travel</td>
+        </tr>
+        <tr>
+            <td>Cooking</td>
+            <td>I like to cook</td>
+        </tr>
+    </table>
+    <a href="https://en.wikipedia.org/wiki/Dwarf_Fortress">Dwarf Fortress</a>
+
+    <p class="greentext">This is a paragraph with green text</p>
 </body>
